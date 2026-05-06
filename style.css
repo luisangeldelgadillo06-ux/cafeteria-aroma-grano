@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5e6; /* Color crema/hueso de fondo */
+    color: #4b3621; /* Café oscuro para el texto */
+}
+
+/* Encabezado - Color Grano de Café */
+header {
+    background-color: #3e2723; /* Café muy oscuro */
+    color: #d7ccc8; /* Beige clarito */
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #795548;
+}
+
+/* Navegación - Tonos Madera */
+nav {
+    background-color: #5d4037;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #d7ccc8;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffab91; /* Color canela al pasar el mouse */
+}
+
+/* Contenido Principal */
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Formularios - Estilo Menú de Café */
+fieldset {
+    border: 3px double #8d6e63; /* Borde doble estilo rústico */
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #5d4037;
+    background: #d7ccc8;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
+
+.campos label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #a1887f;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+/* Botones - Color Tostado */
+button {
+    background-color: #795548;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px; /* Botón redondeado */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #3e2723;
+}
+
+/* Lateral e Información */
+aside {
+    padding: 15px;
+    background-color: #efebe9;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-left: 5px solid #8d6e63;
+}
+
+footer {
+    background-color: #3e2723;
+    color: #bcaaa4;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

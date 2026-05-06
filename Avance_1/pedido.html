@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos - Cafetería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Sistema de Pedidos</h1></header>
+    <nav>
+        <ul>
+    <li><a href="registro.html">REGISTRO</a> #</li>
+    <li><a href="login.html">LOGIN</a> #</li>
+    <li><a href="encuesta.html">ENCUESTA</a> #</li>
+    <li><a href="suscripcion.html">SUSCRIPCION</a> #</li>
+    <li><a href="empleado.html">EMPLEADO</a> #</li>
+    <li><a href="inventario.html">INVENTARIO</a> #</li>
+    <li><a href="factura.html">FACTURA</a> #</li>
+    <li><a href="buzon.html">BUZÓN</a> #</li>
+    <li><a href="pedido.html">PEDIDOS</a> #</li>
+    <li><a href="personalizar.html">PERSONALIZAR</a> #</li>
+    <li><a href="nuevo_producto.html">NUEVO PRODUCTO</a> #</li>
+    <li><a href="reserva.html">RESERVAS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form id="pedido" name="pedido" action="personalizar.html">
+                <fieldset>
+                    <legend>Selecciona tu Pedido</legend>
+                    <div class="campos">
+                        <label for="cafe">Tipo de Café:</label>
+                        <select id="cafe" name="cafe" required>
+                            <option value="espresso">Espresso</option>
+                            <option value="americano">Americano</option>
+                            <option value="latte">Latte</option>
+                        </select>
+                        <br><br>
+                        <label for="cantidad">Cantidad:</label>
+                        <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+                    </div>
+                    <button type="submit">Siguiente: Personalizar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <aside>Promoción del día: 2x1 en Americanos.</aside>
+    <footer>® Derechos Reservados - Pedidos</footer>
+</body>
+</html>

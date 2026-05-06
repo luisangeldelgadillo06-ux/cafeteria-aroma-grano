@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Facturación - Administración</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>☕ Cafetería Aroma & Grano</h1></header>
+    <nav>
+        <ul>
+    <li><a href="registro.html">REGISTRO</a> #</li>
+    <li><a href="login.html">LOGIN</a> #</li>
+    <li><a href="encuesta.html">ENCUESTA</a> #</li>
+    <li><a href="suscripcion.html">SUSCRIPCION</a> #</li>
+    <li><a href="empleado.html">EMPLEADO</a> #</li>
+    <li><a href="inventario.html">INVENTARIO</a> #</li>
+    <li><a href="factura.html">FACTURA</a> #</li>
+    <li><a href="buzon.html">BUZÓN</a> #</li>
+    <li><a href="pedido.html">PEDIDOS</a> #</li>
+    <li><a href="personalizar.html">PERSONALIZAR</a> #</li>
+    <li><a href="nuevo_producto.html">NUEVO PRODUCTO</a> #</li>
+    <li><a href="reserva.html">RESERVAS</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form id="Factura" action="buzon.html">
+                <fieldset>
+                    <legend>Datos de Facturación</legend>
+                    <div class="campos">
+                        <label for="identidad">RUC / DNI:</label>
+                        <input type="text" id="identidad" name="identidad" placeholder="Número de documento">
+                    </div>
+                    <div class="campos">
+                        <label for="razon_social">Razón Social:</label>
+                        <input type="text" id="razon_social" name="razon_social" placeholder="Nombre de la empresa o persona">
+                    </div>
+                    <button type="submit">Generar Comprobante</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <aside>Documentos válidos para Sunat</aside>
+    <footer>® Derechos Reservados - Administración</footer>
+</body>
+</html>
